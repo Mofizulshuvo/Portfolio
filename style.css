@@ -1,0 +1,20 @@
+.section1{
+    background-color: rgb(209, 214, 214);
+}
+
+.profile{
+    display:flex
+}
+.navbar{
+    display: flex;
+}
+
+.nav-menu li{
+    list-style: none;
+
+}
+
+.nav-menu ul{
+    display: flex;
+    
+}
