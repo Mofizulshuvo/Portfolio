@@ -1,51 +1,14 @@
-/* .section1{ */
-    /* background-color: rgb(209, 214, 214);
-    width: 1920px;
-    height: 1022px;
-    
-}
-
-.profile{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* .navbar{
-    display: flex;
-    justify-content: space-between;
-    
-} */
-
-/* 
-.nav-menu ul{
-    display: flex;
-    
-}
-
-.nav-menu li{
-    list-style: none;
-
-}
-
-
-.section1 profile navbar logo i{
-    width: 300px;
-    height: 200px;
-} */ 
-
-/* 
-. */
-
-
-
 
 .section1{
-    width: 1300px;
+    width: auto;
     height: auto;
     background-color:  rgb(209, 214, 214);
     margin: auto;
-    padding: 20px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
 }
 
 .fa-user-secret{
@@ -97,9 +60,6 @@
     justify-content: space-between;
 }
 
-
-
-
 .intro{
     margin-top: 50px;
     margin-left: 200px;
@@ -134,3 +94,40 @@ i{
     margin: 15px;
 
 }
+
+
+
+.section2{
+    width:auto;
+    height: auto;
+    background-color:  rgb(209, 214, 214);
+}
+.black-block{
+    width:auto;
+    height:150px;
+    background-color: rgba(5, 5, 5, 0.832);
+    color: white;
+    padding-left:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.white-block{
+    padding: 50px;
+}
+
+.white-block.about-me{
+    border: 5px solid black;
+}
+
+
+
+
+
+
+
+
+
