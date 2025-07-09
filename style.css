@@ -1,12 +1,26 @@
-.section1{
-    background-color: rgb(209, 214, 214);
+/* .section1{ */
+    /* background-color: rgb(209, 214, 214);
+    width: 1920px;
+    height: 1022px;
+    
 }
 
 .profile{
-    display:flex
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.navbar{
+
+/* .navbar{
     display: flex;
+    justify-content: space-between;
+    
+} */
+
+/* 
+.nav-menu ul{
+    display: flex;
+    
 }
 
 .nav-menu li{
@@ -14,7 +28,109 @@
 
 }
 
+
+.section1 profile navbar logo i{
+    width: 300px;
+    height: 200px;
+} */ 
+
+/* 
+. */
+
+
+
+
+.section1{
+    width: 1300px;
+    height: auto;
+    background-color:  rgb(209, 214, 214);
+    margin: auto;
+    padding: 20px;
+}
+
+.fa-user-secret{
+    font-size: 50px;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 .nav-menu ul{
     display: flex;
-    
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-menu li{
+    font-size: 18px;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn-contact{
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    width: 125px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 15px;
+    border: rgb(255, 255, 255);
+    box-shadow: rgb(255, 255, 255);
+}
+.btn-contact:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.nav-menu{
+    justify-content: space-between;
+}
+
+
+
+
+.intro{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-text h3{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.intro-text h1{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intro-text p{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+i{
+    font-size: 30px;
+}
+
+.social-media a{
+    color: black;
+    justify-content: space-between;
+    margin: 15px;
+
 }
