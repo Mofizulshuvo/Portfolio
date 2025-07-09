@@ -107,27 +107,142 @@ i{
     height:150px;
     background-color: rgba(5, 5, 5, 0.832);
     color: white;
-    padding-left:20px;
+    padding-left:5cap;
     padding-top:20px;
     padding-bottom:20px;
-    padding-right: 20px;
+    padding-right: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-me{
+    text-align: center;
+}
+.para{
+    padding-left:50px;
+    padding-right: 50px;
+    margin-left:200px;
+    margin-right:200px;
 }
 
 
 .white-block{
+    /* display: flex; */
+    justify-content: space-between;
     padding: 50px;
+    height: fit-content;
 }
 
-.white-block.about-me{
-    border: 5px solid black;
+.development{
+    text-decoration: solid;
+    text-align: left;
+    margin-top:none;
+    margin-left: 40px;
+    margin-right:40px;
+    
+}
+.dev{
+    font-size: 30px;
+}
+.dev-para{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.design{
+    text-decoration: solid;
+    text-align: left;
+    margin-top:none;
+    margin-left: 40px;
+    margin-right:40px;
+}
+
+.des{
+     font-size: 30px;
+
+}
+.des-para{
+     font-family: sans-serif;
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+.text-block1{
+    display: flex;
+    align-items: center;
+}
+
+
+.text-block2{
+    display: flex;
+    align-items: center;
+}
+
+.maintanance{
+       text-decoration: solid;
+    text-align: left;
+    margin-top:none;
+    margin-left: 40px;
+    margin-right:40px;
+}
+.main{
+      font-size: 30px;
+}
+.main-para{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.support{
+     text-decoration: solid;
+    text-align: left;
+    margin-top:none;
+    margin-left: 40px;
+    margin-right:40px; 
+}
+.supp{
+    font-size: 30px;
+}
+
+.supp-para{
+     font-family: sans-serif;
+    font-size: 15px;
+    text-align: justify;
 }
 
 
 
+.skill{
+    text-decoration: solid;
+    text-align: left;
+    margin-top:none;
+    margin-left: 40px;
+    margin-right:40px;
+    align-items: center; 
+}
+.skill h2{
+    text-align: center;
+    font-size: 30px;
+}
 
+.skill i{
+    
+    justify-content: space-between;
+    margin: 40px;
+    margin-left: 100px;
+    font-size: 80px;
+}
 
-
-
-
+.footer{
+    background-color: rgba(0, 0, 0, 0.837);
+    color:white;
+    text-align: center;
+    width:auto;
+    height:200px;
+}
+.foot{
+    padding:170px;
+}
 
